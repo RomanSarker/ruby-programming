@@ -1,0 +1,7 @@
+char_name = "Roman"
+age = "30"
+
+puts "my name is " + char_name 
+puts "my name issss"
+puts "Im " + age + " years old"
+puts "my age is " + age 
