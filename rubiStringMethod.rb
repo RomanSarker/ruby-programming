@@ -31,6 +31,48 @@
 
 # 6.Trim a string //strip method
 
-string = "hi there       "
-# puts string.strip
-p string.strip
+# string = "hi there       "
+# # puts string.strip
+# p string.strip
+
+# 7. add a string before another string #prepend ("hello") 
+
+# sentence = "world"
+ 
+# puts sentence.prepend("hello ")
+
+# 8. Insert a string # insert (position, new string)
+
+# sentence = "world"
+# # puts sentence.insert(4 , "Hi ")
+# puts sentence.insert(sentence.length ,  " Hi ")
+
+# 9. method for changing the case of a string
+
+# sentence = "hey roamn"
+# # puts sentence.downcase
+# # puts sentence.upcase
+# puts sentence.capitalize
+
+# 10. add string # concat() method
+
+# sentence1 = "This is"
+# sentence2 = "Roman"
+
+# puts sentence1.concat(" ").concat(sentence2)
+
+# 11.get substring #slice(0.5)
+
+# sent = "This is Roman"
+
+# # puts sent.slice(7,sent.length) or
+
+# puts sent.slice(sent.length -5, sent.length) 
+
+# 12.Empty string check # .empty?
+
+# # sent = "Roman"
+# sent = "" //" " can give true result
+
+# puts sent.empty?
+
